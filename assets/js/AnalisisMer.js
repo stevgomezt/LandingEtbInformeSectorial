@@ -8,11 +8,12 @@ var imagesAnalisisMer = [
   "/assets/img/slides/analisisMerc2.jpg",
   "/assets/img/slides/analisisMerc3.jpg",
   "/assets/img/slides/analisisMerc4.jpg",
-  "/assets/img/slides/analisisMerc5.jpg",
   "/assets/img/slides/analisisMerc6.jpg",
   "/assets/img/slides/analisisMerc7.jpg",
   "/assets/img/slides/analisisMerc8.jpg",
-  "/assets/img/slides/analisisMerc9.jpg"
+  "/assets/img/slides/analisisMerc5.jpg",
+  "/assets/img/slides/analisisMerc9.jpg",
+  "/assets/img/slides/analisisMerc10.jpg"
 ];
 var currentIndexAnalisisMer = 0;
 
