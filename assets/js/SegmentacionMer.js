@@ -3,11 +3,11 @@ var modalDialogSegmentacionMer = document.querySelector('.modal-dialog');
 var galleryImgSegmentacionMer = document.getElementById('galleryImgSegmentacionMer');
 var imageContainerSegmentacionMer = document.getElementById('imageContainerSegmentacionMer');
 var imagesSegmentacionMer = [
-  "/assets/img/slides/SegmentacionMer1.jpg",
-  "/assets/img/slides/SegmentacionMer2.jpg",
-  "/assets/img/slides/SegmentacionMer3.jpg",
-  "/assets/img/slides/SegmentacionMer4.jpg",
-  "/assets/img/slides/SegmentacionMer5.jpg"
+  "/assets/img/slides/segmentacionMer1.jpg",
+  "/assets/img/slides/segmentacionMer2.jpg",
+  "/assets/img/slides/segmentacionMer3.jpg",
+  "/assets/img/slides/segmentacionMer4.jpg",
+  "/assets/img/slides/segmentacionMer5.jpg"
 ];
 var currentIndexSegmentacionMer = 0;
 
