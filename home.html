@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>emergia -ETB</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/journey/favicon.png" rel="icon">
+  <link href="assets/img/journey/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Incluye las bibliotecas de Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <!-- Enlaza el archivo app.js que contiene la lógica de autenticación -->
+  <script src="/assets/js/firebaseauth.js" defer></script>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.4.0/dist/chartjs-plugin-datalabels.min.js"></script>
+</head>
+
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <h1><img src="/assets/img/logos/Logo emergia.png" alt=""></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul class="mx-3">
+          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
+          <li><a class="nav-link scrollto" href="#more-services">Nuestra Experiencia</a></li>
+          <li><a class="nav-link scrollto" href="#services">Journey Analítico</a></li>
+        </ul>
+        <button class="btn btn-primary" id="logout-button">Cerrar Sesión</button>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="banner-container position-relative">
+      <img src="assets/img/hero-img.png" class="banner-img" alt="Banner Image">
+      <img class="img-logo position-absolute top-0 start-0 mt-4 ms-4" src="/assets/img/logos/etb.png" alt="Logo Image">
+    </div>
+
+  </section>
+  <!-- End Hero -->
+
+  <!-- ======= #main ======= -->
+  <main id="main">
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed d-flex justify-content-center align-items-center pulsar"
+                type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                aria-controls="flush-collapseOne" style="width: 100%;">
+                <div class="section-title text-center" data-aos="fade-up" style="width: 100%;">
+                  <h2 style="margin: 0;">Conoce nuestro equipo</h2>
+                  <p style="margin: 0;">Área de Analítica y Estrategia de Negocios</p>
+                  <img class="icon-animado" src="/assets/img/icon/icons8-tap-gesture.gif" alt="">
+                </div>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+
+                <div class="row" style="justify-content: center;">
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-1.png" class="gallery-img" alt="Imagen de Lorenzo Quintero">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Lorenzo Quintero</h4>
+                        <span>Director de Analítica y Estrategia de Negocio</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="300">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-3.png" class="gallery-img" alt="Imagen de Renso Cote">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Renso <br>Cote</h4>
+                        <span>Gerente de Analítica y Estrategia de Negocio</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="200">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-4.png" class="gallery-img" alt="Imagen de Antonio Malanda">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Antonio Malanda</h4>
+                        <span>Gerente de Analítica y Estrategia de Negocio</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-11.png" class="gallery-img" alt="Imagen de Isabel Cardona">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Isabel <br>Cardona</h4>
+                        <span>Coord Analítica Comercial e Investigación de Mercados</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-7.png" class="gallery-img" alt="Imagen de Juan David Giraldo">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Juan David Giraldo</h4>
+                        <span>Business Analyst</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-8.png" class="gallery-img" alt="Imagen de Jhon Jairo Arenas">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Jhon Jairo Arenas</h4>
+                        <span>Business Analyst</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row" style="justify-content: center;">
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-2.png" class="gallery-img" alt="Imagen de Luisa Velásquez">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Luisa <br>Velásquez</h4>
+                        <span>Gerente de Analítica e Inteligencia Artificial</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="200">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-10.png" class="gallery-img" alt="Imagen de Anderson Ruales">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Anderson Ruales</h4>
+                        <span>Coord Data Analytics</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="300">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-12.png" class="gallery-img" alt="Imagen de Stivenson Gomez">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Stivenson Gomez</h4>
+                        <span>Ingeniero de Integraciones</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-6.png" class="gallery-img" alt="Imagen de Natalia Betancur">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Natalia Betancur</h4>
+                        <span>Data Scientist</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-9.png" class="gallery-img" alt="Imagen de Frank Zapata">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>Frank <br>Zapata</h4>
+                        <span>Data Scientist</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 d-flex align-items-stretch team-size-img">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                      <div class="member-img">
+                        <img src="assets/img/team/eq-5.png" class="gallery-img" alt="Imagen de David Felipe Luna">
+                        <div class="social">
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-twitter"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-facebook"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-instagram"></i></a>
+                          <a href="#" onclick="event.preventDefault()"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <div class="member-info">
+                        <h4>David Felipe Luna</h4>
+                        <span>Data Scientist</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+    <!-- End Team Section -->
+
+    <!-- ======= More Services Section ======= -->
+    <section id="more-services" class="more-services">
+
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Nuestra Experiencia</h2>
+        </div>
+
+        <div class='container'>
+          <!-- First Row -->
+          <div class='row nuestra-exp-margen'>
+            <div class='col-md-4 col'>
+              <div class="icon-box2">
+                <li class="li-nuestraexp">
+                  <a class='normal' href="#" onclick="event.preventDefault()">
+                    <div class="image-container-nuestraexp">
+                      <img class="custom-img2" src="/assets/img/exp/v2/1.png" alt="">
+                    </div>
+                  </a>
+                  <div class='info'>
+                    <img src="/assets/img/logos/logodoblexs.png" alt=""
+                      style="width: 70px; height: auto; position: absolute; top: 0; right: 0;">
+                    <h3 class="titulos-exp">96 Modelos de propensión de ventas <br>
+                      127 Tuning a modelos</h3>
+                  </div>
+                </li>
+              </div>
+            </div>
+            <div class='col-md-4 col'>
+              <div class="icon-box2">
+                <li class="li-nuestraexp">
+                  <a class='normal' href="#" onclick="event.preventDefault()">
+                    <div class="image-container-nuestraexp">
+                      <img class="custom-img2" src="/assets/img/exp/v2/2.png" alt="">
+                    </div>
+                  </a>
+                  <div class='info'>
+                    <img src="/assets/img/logos/logodoblexs.png" alt=""
+                      style="width: 70px; height: auto; position: absolute; top: 0; right: 0;">
+                    <h3 class="titulos-exp">16 Modelos de retención <br>
+                      4 Modelos de fidelización</h3>
+                  </div>
+                </li>
+              </div>
+            </div>
+            <div class='col-md-4 col'>
+              <div class="icon-box2">
+                <li class="li-nuestraexp">
+                  <a class='normal' href="#" onclick="event.preventDefault()">
+                    <div class="image-container-nuestraexp">
+                      <img class="custom-img2" src="/assets/img/exp/v2/3.png" alt="">
+                    </div>
+                  </a>
+                  <div class='info'>
+                    <img src="/assets/img/logos/logodoblexs.png" alt=""
+                      style="width: 70px; height: auto; position: absolute; top: 0; right: 0;">
+                    <h3 class="titulos-exp">8 Modelos de propensión de pago <br>
+                      1 Modelo de propensión de rodamiento</h3>
+                  </div>
+                </li>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Row -->
+          <div class='row nuestra-exp-margen'>
+            <div class='col-md-4 col'>
+              <div class="icon-box2">
+                <li class="li-nuestraexp">
+                  <a class='normal' href="#" onclick="event.preventDefault()">
+                    <div class="image-container-nuestraexp">
+                      <img class="custom-img2" src="/assets/img/exp/v2/4.png" alt="">
+                    </div>
+                  </a>
+                  <div class='info'>
+                    <img src="/assets/img/logos/logodoblexs.png" alt=""
+                      style="width: 70px; height: auto; position: absolute; top: 0; right: 0;">
+                    <h3 class="titulos-exp">7 Modelos predictivos recomendadores</h3>
+                  </div>
+                </li>
+              </div>
+            </div>
+
+            <div class='col-md-4 col'>
+              <div class="icon-box2">
+                <li class="li-nuestraexp">
+                  <a class='normal' href="#" onclick="event.preventDefault()">
+                    <div class="image-container-nuestraexp">
+                      <img class="custom-img2" src="/assets/img/exp/v2/5.png" alt="">
+                    </div>
+                  </a>
+                  <div class='info'>
+                    <img src="/assets/img/logos/logodoblexs.png" alt=""
+                      style="width: 70px; height: auto; position: absolute; top: 0; right: 0;">
+                    <h3 class="titulos-exp">2 Modelos B2B</h3>
+                  </div>
+                </li>
+              </div>
+            </div>
+            <div class='col-md-4 col'>
+              <div class="icon-box2">
+                <li class="li-nuestraexp">
+                  <a class='normal' href="#" onclick="event.preventDefault()">
+                    <div class="image-container-nuestraexp">
+                      <img class="custom-img2" src="/assets/img/exp/v2/6.png" alt="">
+                    </div>
+                  </a>
+                  <div class='info'>
+                    <img src="/assets/img/logos/logodoblexs.png" alt=""
+                      style="width: 70px; height: auto; position: absolute; top: 0; right: 0;">
+                    <h3 class="titulos-exp">16 modelos recomendadores</h3>
+                  </div>
+                </li>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Row -->
+          <div class='row nuestra-exp-margen'>
+            <div class='col-md-6 col'>
+              <li class="li-nuestraexp">
+                <a class='normal' href="#" onclick="event.preventDefault()">
+                  <div class="image-container-nuestraexp">
+                    <img class="custom-img-premios" src="/assets/img/exp/v2/2024.png" alt="">
+                  </div>
+                </a>
+              </li>
+            </div>
+            <div class='col-md-6 col'>
+              <li class="li-nuestraexp">
+                <a class='normal' href="#" onclick="event.preventDefault()">
+                  <div class="image-container-nuestraexp">
+                    <img class="custom-img-premios" src="/assets/img/exp/v2/2023.png" alt="">
+                  </div>
+                </a>
+              </li>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+    <!-- End More Services Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Informe Analítico del Sector</h2>
+        </div>
+
+        <div class="row align-items-stretch">
+
+          <div class="col-md-4 services-padding">
+            <button class="button-like" id="openModalBtnInvestigacionMer">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/journey/JA-4.png" alt="">
+                <div class="icon"></div>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">Investigación de Mercados</a></h4>
+                <p class="description">Aporte de conocimiento, entendimiento de la industria y el mercado.&nbsp;&nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                </p>
+              </div>
+            </button>
+          </div>
+
+          <div class="col-md-4 services-padding">
+            <button class="button-like" id="openModalBtnAnalisisMer">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/journey/JA-7.png" alt="">
+                <div class="icon"></div>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">Análisis de Mercado</a></h4>
+                <p class="description">Caracterización y perfilamiento sociodemografico, de experiencia y de producto,
+                  conocimiento del consumidor.
+                </p>
+              </div>
+            </button>
+          </div>
+
+          <div class="col-md-4 services-padding">
+            <button class="button-like" id="openModalBtnSegmentacionMer">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/journey/JA-3.png" alt="">
+                <div class="icon"></div>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">Segmentación de Mercados</a></h4>
+                <p class="description">Perspectivas especificas de cada segmento del mercado.&nbsp;&nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                  &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                </p>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch">
+
+          <div class="col-md-4 services-padding">
+            <button class="button-like" id="openModalBtnBenchmarking">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/journey/JA-1.png" alt="">
+                <div class="icon"></div>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">Benchmarking</a>
+                </h4>
+                <p class="description">Comparación de oferta y precios de los principales competidores del mercado.
+                  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                </p>
+              </div>
+            </button>
+          </div>
+
+          <div class="col-md-4 services-padding">
+            <button class="button-like" id="openModalBtnVisionAnalit">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/journey/JA-5.png" alt="">
+                <div class="icon"></div>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">Visión Analítica del Mercado</a>
+                </h4>
+                <p class="description">Evaluacion de datos y tendencias para entender el comportamiento y oportunidades
+                  de negocio. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp;
+                </p>
+              </div>
+            </button>
+          </div>
+
+          <div class="col-md-4 services-padding">
+            <button class="button-like" id="openModalBtnModeloInteligenteVen">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/journey/JA-8.png" alt="">
+                <div class="icon"></div>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">Modelo Inteligente de Ventas</a></h4>
+                <p class="description">Cliente actual, producto actual, y Next Best Product. &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                  &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                </p>
+              </div>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="row align-items-stretch">
+
+          <div class="col-md-4 services-padding">
+            <button class="button-like" id="openModalBtnPestel">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/journey/JA-6.png" alt="">
+                <div class="icon"></div>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">PESTEL</a></h4>
+                <p class="description">Analisis de factores politicos, económicos, sociales, tecnológicos, ecológicos y
+                  legales que afectan el entorno empresarial.
+                </p>
+              </div>
+            </button>
+          </div>
+
+          <div class="col-md-4 services-padding">
+            <button class="button-like" id="openModalBtnPAC">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/journey/JA-2.png" alt="">
+                <div class="icon"></div>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">PAC</a></h4>
+                <p class="description">Inteligencia Artificial aplicada para el Perfilamiento Analítico del
+                  Colaborador.&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                </p>
+              </div>
+            </button>
+          </div>
+
+          <div class="col-md-4 services-padding">
+            <button class="button-like" id="openModalBtnInnovacionTecn">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/journey/JA-9.png" alt="">
+                <div class="icon"></div>
+                <h4 class="title"><a href="#" onclick="event.preventDefault()">Innovación y Tecnología</a></h4>
+                <p class="description">Implementación de nuevas ideas y avances tecnológicos para mejorar los procesos,
+                  servicios y productos. &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                </p>
+              </div>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- End Services Section -->
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container"></div>
+    </div>
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        <img src="/assets/img/logos/Logo emergia.png" alt="" style="width: 150px;">
+      </div>
+      <div class="credits">
+        Diseñado por
+        <a href="#">Área de Analítica y Estrategia de Negocios</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+
+  <!-- ======= Modales ======= -->
+  <!-- myModalAnalisisMer -->
+  <div class="modal fade" id="myModalAnalisisMer" tabindex="-1" role="dialog" aria-labelledby="myModalAnalisisMerLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalAnalisisMerLabel">Análisis de Mercado</h5>
+        </div>
+        <div class="modal-body text-center">
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-secondary navButton" id="prevBtnAnalisisMer"> Anterior</button>
+            <div id="imageContainerAnalisisMer" class="image-container mx-2">
+              <!-- <img id="galleryImgAnalisisMer" src="/assets/img/slides/29.png" class="gallery-img" alt="Imagen"> -->
+              <img id="galleryImgAnalisisMer" src="/assets/img/slides/modelosPre1.jpg" class="gallery-img" alt="Imagen">
+            </div>
+            <button class="btn btn-secondary navButton" id="nextBtnAnalisisMer">Siguiente </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs"><img src="/assets/img/logos/etbxs.png"
+            alt="" class="logo-xs">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- myModalPestel -->
+  <div class="modal fade" id="myModalPestel" tabindex="-1" role="dialog" aria-labelledby="myModalPestelLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalPestelLabel">PESTEL</h5>
+        </div>
+        <div class="modal-body text-center">
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-secondary navButton" id="prevBtnPestel"> Anterior</button>
+            <div id="imageContainerPestel" class="image-container mx-2">
+              <img id="galleryImgPestel" src="assets/img/slides/pestel1.png" class="gallery-img" alt="Imagen">
+            </div>
+            <button class="btn btn-secondary navButton" id="nextBtnPestel">Siguiente </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs"><img src="/assets/img/logos/etbxs.png"
+            alt="" class="logo-xs">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- myModalSegmentacionMer -->
+  <div class="modal fade" id="myModalSegmentacionMer" tabindex="-1" role="dialog"
+    aria-labelledby="myModalSegmentacionMerLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalSegmentacionMerLabel">Segmentación de Mercados</h5>
+        </div>
+        <div class="modal-body text-center">
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-secondary navButton" id="prevBtnSegmentacionMer"> Anterior</button>
+            <div id="imageContainerSegmentacionMer" class="image-container mx-2">
+              <img id="galleryImgSegmentacionMer" src="assets/img/slides/SegmentacionMer1.jpg" class="gallery-img"
+                alt="Imagen">
+            </div>
+            <button class="btn btn-secondary navButton" id="nextBtnSegmentacionMer">Siguiente </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs"><img src="/assets/img/logos/etbxs.png"
+            alt="" class="logo-xs">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- myModalModeloInteligenteVen -->
+  <div class="modal fade" id="myModalModeloInteligenteVen" tabindex="-1" role="dialog"
+    aria-labelledby="myModalModeloInteligenteVenLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="modal-title" id="myModalModeloInteligenteVenLabel">Modelo Inteligente de Ventas</h5>
+            <a href="ModeloInteligenteVen_v1.pdf" class="animated-link" target="_blank"><i
+                class="fas fa-hand-point-right"></i>
+              &nbsp;&nbsp;¡ Haz Clic aquí para Descargar PDF !</a>
+          </div>
+        </div>
+        <div class="modal-body text-center">
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-secondary navButton" id="prevBtnModeloInteligenteVen"> Anterior</button>
+            <div id="imageContainerModeloInteligenteVen" class="image-container mx-2">
+              <img id="galleryImgModeloInteligenteVen" src="assets/img/slides/ModeloInteligenteVen1.png"
+                class="gallery-img" alt="Imagen">
+            </div>
+            <button class="btn btn-secondary navButton" id="nextBtnModeloInteligenteVen">Siguiente </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs"><img src="/assets/img/logos/etbxs.png"
+            alt="" class="logo-xs">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- myModalPAC -->
+  <div class="modal fade" id="myModalPAC" tabindex="-1" role="dialog" aria-labelledby="myModalPACLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom-video" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalPACLabel">PAC</h5>
+        </div>
+        <div class="modal-body text-center">
+          <video id="videoPAC" width="100%" height="100%" controls autoplay muted>
+            <source src="assets/img/slides/Pac3.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="modal-footer">
+          <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs"><img src="/assets/img/logos/etbxs.png"
+            alt="" class="logo-xs">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- myModalMAC -->
+  <div class="modal fade" id="myModalVisionAnalit" tabindex="-1" role="dialog"
+    aria-labelledby="myModalVisionAnalitLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom-video" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalMACLabel">Visión Analítica del Mercado</h5>
+        </div>
+        <div class="modal-body text-center">
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-secondary navButton" id="prevBtnVisionAnalit"> Anterior</button>
+            <div id="imageContainerVisionAnalit" class="image-container mx-2">
+              <img id="galleryImgVisionAnalit" src="/assets/img/slides/VisionAnalit1.jpg" class="gallery-img"
+                alt="Imagen">
+            </div>
+            <button class="btn btn-secondary navButton" id="nextBtnVisionAnalit">Siguiente </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs"><img src="/assets/img/logos/etbxs.png"
+            alt="" class="logo-xs">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- myModalInvestigacionMer -->
+  <div class="modal fade" id="myModalInvestigacionMer" tabindex="-1" role="dialog"
+    aria-labelledby="myModalInvestigacionMerLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalInvestigacionMerLabel">Investigación de Mercados</h5>
+          <h5 class="modal-title"></h5>
+        </div>
+        <div class="modal-body text-center">
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-secondary navButton" id="prevBtnInvestigacionMer"> Anterior</button>
+            <div id="imageContainerInvestigacionMer" class="image-container mx-2">
+              <img id="galleryImgInvestigacionMer" src="/assets/img/slides/invesMer1.jpg" class="gallery-img"
+                alt="Imagen">
+            </div>
+            <button class="btn btn-secondary navButton" id="nextBtnInvestigacionMer">Siguiente </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs"><img src="/assets/img/logos/etbxs.png"
+            alt="" class="logo-xs">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- myModalBI -->
+  <div class="modal fade" id="myModalBenchmarking" tabindex="-1" role="dialog"
+    aria-labelledby="myModalBenchmarkingLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalBenchmarkingLabel">Benchmarking</h5>
+          <a href="mapa3.html" target="_blank" class="animated-link"><i class="fas fa-hand-point-right"></i>
+            &nbsp;&nbsp;¡ Haz Clic aquí para Abrir el Mapa !</a>
+        </div>
+        <div class="modal-body text-center">
+          <div class="d-flex justify-content-center align-items-center">
+            <!-- <button class="btn btn-secondary navButton" id="prevBtnBenchmarking"> Anterior</button> -->
+            <div id="imageContainerBenchmarking" class="image-container mx-2">
+              <a href="mapa3.html" target="_blank">
+                <img id="galleryImgBenchmarking" src="assets/img/slides/modelosAten.jpg" class="gallery-img"
+                  alt="Imagen">
+              </a>
+
+
+            </div>
+            <!-- <button class="btn btn-secondary navButton" id="nextBtnBenchmarking">Siguiente </button> -->
+          </div>
+        </div>
+        <div class="modal-footer">
+          <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs"><img src="/assets/img/logos/etbxs.png"
+            alt="" class="logo-xs">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- myModalIA -->
+  <div class="modal fade" id="myModalInnovacionTecn" tabindex="-1" role="dialog"
+    aria-labelledby="myModalInnovacionTecnLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg-custom" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalInnovacionTecnLabel">Innovación y Tecnología</h5>
+          <!-- <h5 class="modal-title"><a target="_blank" href="https://api.whatsapp.com/send?phone=573206583087">Link a Chatbot</a></h5> -->
+        </div>
+        <div class="modal-body text-center">
+          <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-secondary navButton" id="prevBtnInnovacionTecn"> Anterior</button>
+            <div id="imageContainerInnovacionTecn" class="image-container mx-2">
+              <img id="galleryImgInnovacionTecn" src="/assets/img/slides/innovacionTec1.jpg" class="gallery-img"
+                alt="Imagen">
+            </div>
+            <button class="btn btn-secondary navButton" id="nextBtnInnovacionTecn">Siguiente </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <img src="/assets/img/logos/logodoblexs.png" alt="" class="logo-xs"><img src="/assets/img/logos/etbxs.png"
+            alt="" class="logo-xs">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Modales -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-short"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5" />
+    </svg>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <!-- <script src="assets/js/graficos.js"></script> -->
+  <script src="assets/js/nuestraexp.js"></script>
+  <script src="assets/js/AnalisisMer.js"></script>
+  <script src="assets/js/Pestel.js"></script>
+  <script src="assets/js/ModeloInteligenteVen.js"></script>
+  <script src="assets/js/pac.js"></script>
+  <script src="assets/js/VisionAnalit.js"></script>
+  <script src="assets/js/InvestigacionMer.js"></script>
+  <script src="assets/js/Benchmarking.js"></script>
+  <script src="assets/js/InnovacionTecn.js"></script>
+  <script src="assets/js/SegmentacionMer.js"></script>
+  <script src="assets/js/spinner.js"></script>
+
+</body>
+
+</html>
