@@ -4,15 +4,11 @@ var modalDialogAnalisisMer = modalAnalisisMer.querySelector('.modal-dialog');
 var galleryImgAnalisisMer = document.getElementById('galleryImgAnalisisMer');
 var imageContainerAnalisisMer = document.getElementById('imageContainerAnalisisMer');
 var imagesAnalisisMer = [
-  "/assets/img/slides/modelosPre1.jpg",
-  "/assets/img/slides/modelosPre2.jpg",
-  "/assets/img/slides/modelosPre3.jpg",
-  "/assets/img/slides/modelosPre4.jpg",
-  "/assets/img/slides/modelosPre5.jpg",
-  "/assets/img/slides/modelosPre6.jpg",
-  "/assets/img/slides/modelosPre7.jpg",
-  "/assets/img/slides/modelosPre8.jpg",
-  "/assets/img/slides/modelosPre9.jpg"
+  "/assets/img/slides/analisisMerc1.jpg",
+  "/assets/img/slides/analisisMerc2.jpg",
+  "/assets/img/slides/analisisMerc3.jpg",
+  "/assets/img/slides/analisisMerc4.jpg",
+  "/assets/img/slides/analisisMerc5.jpg"
 ];
 var currentIndexAnalisisMer = 0;
 
