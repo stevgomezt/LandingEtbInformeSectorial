@@ -7,7 +7,8 @@ var imagesInnovacionTecn = [
   "/assets/img/slides/innovacionTec1.jpg",
   "/assets/img/slides/innovacionTec2.jpg",
   "/assets/img/slides/innovacionTec3.jpg",
-  "/assets/img/slides/innovacionTec4.jpg"
+  "/assets/img/slides/innovacionTec4.jpg",
+  "/assets/img/slides/innovacionTec5.jpg",
 ];
 var currentIndexInnovacionTecn = 0;
 
