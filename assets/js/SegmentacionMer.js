@@ -7,8 +7,7 @@ var imagesSegmentacionMer = [
   "/assets/img/slides/SegmentacionMer2.jpg",
   "/assets/img/slides/SegmentacionMer3.jpg",
   "/assets/img/slides/SegmentacionMer4.jpg",
-  "/assets/img/slides/SegmentacionMer5.jpg",
-  "/assets/img/slides/SegmentacionMer6.jpg"
+  "/assets/img/slides/SegmentacionMer5.jpg"
 ];
 var currentIndexSegmentacionMer = 0;
 
